@@ -7,7 +7,31 @@
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JAVA_AutomationUtilities</name>
-	<url>http://maven.apache.org</url>
+	<description>Test Automation Utilities which has utilities that can fetch OTP from email(using Javax mail API) and mobile(using Twilio), FIle library which helps to fetch data from a property file or excel file and set data to an excel file as well.</description>
+	<url>https://github.com/SaqueebAli/AutomationUtitlities</url>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Saqueeb Ali</name>
+			<email>saqueeb.ali@hotmail.com</email>
+			<organization>com.github.SaqueebAli</organization>
+			<organizationUrl>https://github.com/SaqueebAli/AutomationUtitlities</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/SaqueebAli/AutomationUtitlities.git</connection>
+		<developerConnection>scm:git:ssh://github.com/SaqueebAli/AutomationUtitlities.git</developerConnection>
+		<url>https://github.com/SaqueebAli/AutomationUtitlities</url>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
